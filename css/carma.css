@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.top-bottom-margin {
+    margin: 30px 0px;
+}
+.color-red {
+    color: #d9534f;
+}
+.color-white {
+    color: #fff;
+}
+/* Nav */
+
+.navbar-default .navbar-brand {
+    color: #d9534f;
+}
+.navbar li a {
+    color: #fff !important;
+    font-weight: bold;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+/*** footer ***/
+
+footer {
+    background-color: #c1c1c1;
+    padding: 25px;
+    margin-top: 65px;
+}
+.tooltip1 {
+    display: inline;
+    position: relative;
+}
+.tooltip1:hover:after {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+.tooltip1:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+/********* Slider ************/
+
+.carousel-indicators .active {
+    background: #d9534f;
+}
+.carousel-indicators li {
+    border: 1px solid #d9534f;
+}
+#myCarousel .title,
+#myCarousel .subTitle {
+    display: inline-block;
+}
+#myCarousel .title {
+    font-size: 34px;
+    padding-bottom: 35px;
+}
+#myCarousel .subTitle {
+    font-size: 24px;
+}
+#myCarousel .description {} .carousel-control.right {
+    background: none;
+}
+/********** responsive *******/
+
+@media(max-width:767px) {
+    #myCarousel .description {
+        width: 320px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .carousel-indicators {
+        bottom: -84px !important;
+    }
+    #myCarousel button.btn.btn-lg.btn-danger {
+        position: absolute;
+        top: -345px;
+        width: 100%;
+        left: 0px;
+    }
+    .carousel-captions.col-xs-12.col-md-6.col-lg-6 {
+        padding-top: 82px;
+    }
+    #myCarousel .col-xs-12.col-md-6.col-lg-6 {
+        height: 293px;
+    }
+    img.img-responsive.vertical-center.logo {
+        width: 120px;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #d9534f;
+    }
+    .icon-bar {
+        background-color: #fff !important;
+    }
+    footer .vertical-align {
+        display: block;
+        text-align: left;
+    }
+    footer .vertical-align img {
+        width: 85px;
+    }
+}
+@media(min-width:768px) {
+    .theme-color-red {
+        background-color: #d9534f;
+    }
+}
+@media(min-width:992px) {
+    #myCarousel img {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 56px;
+    }
+    .carousel-inner {
+        height: 340px;
+    }
+    .carousel-captions.col-xs-12.col-lg-6 {
+        position: relative;
+        padding-top: 5%;
+    }
+    #myCarousel .description {
+        width: 320px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    ol.carousel-indicators {
+        bottom: -29px;
+        left: 54%;
+    }
+    #myCarousel .btn.btn-lg.btn-danger {
+        left: 38px;
+        position: relative;
+        top: 30px;
+    }
+}
+@media(min-width:1200px) {
+    #myCarousel img {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 56px;
+    }
+    .carousel-inner {
+        height: 340px;
+    }
+    .carousel-captions.col-xs-12.col-lg-6 {
+        position: relative;
+        padding-top: 5%;
+    }
+    #myCarousel .description {
+        width: 320px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    ol.carousel-indicators {
+        /* padding-top: 17px; */
+        /* position: relative; */
+        
+        bottom: -29px;
+        left: 54%;
+    }
+    #myCarousel .btn.btn-lg.btn-danger {
+        left: 38px;
+        position: relative;
+        top: 30px;
+    }
+    footer {
+        background-color: #c1c1c1;
+        padding: 25px;
+        margin-top: 65px;
+        padding-bottom: 65px;
+    }
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-next,
+    .carousel-control .icon-prev {
+        width: 47px;
+        height: 124px;
+        margin-top: -101px;
+        font-size: 163px;
+        color: #d9534f;
+    }
+}
+/* Smaller than standard 960 (devices and browsers) */
+
+@media only screen and (max-width: 959px) {
+    #myCarousel .description {
+        width: 320px;
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .carousel-indicators {
+        bottom: -84px !important;
+    }
+    #myCarousel button.btn.btn-lg.btn-danger {
+        position: absolute;
+        top: -344px;
+        width: 100%;
+        left: 0px;
+    }
+    .carousel-captions.col-xs-12.col-md-6.col-lg-6 {
+        padding-top: 96px;
+    }
+    #myCarousel .col-xs-12.col-md-6.col-lg-6 {
+        height: 293px;
+    }
+    #myCarousel img {
+        width: auto;
+        margin: 0 auto;
+        vertical-align: middle;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* display: block; */
+    }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+    #myCarousel img {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 479px) {}
+/******** Chat*******/
+
+div#chat_window_1 {
+    z-index: 9999;
+}
+h3.panel-title span {
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: blue;
+    padding: 3px 0px 3px 3px;
+}
+.col-md-2,
+.col-md-10 {
+    padding: 0;
+}
+.panel {
+    margin-bottom: 0px;
+}
+.panel-default>.panel-heading {
+    background-color: #d9534f;
+}
+.chat-window {
+    bottom: 0;
+    position: fixed;
+    float: right;
+    margin-left: 10px;
+    right: 0px;
+}
+.chat-window > div > .panel {
+    border-radius: 5px 5px 0 0;
+}
+.icon_minim {
+    padding: 2px 10px;
+}
+.msg_container_base {
+    background: #e5e5e5;
+    margin: 0;
+    padding: 0 10px 10px;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.top-bar {
+    background: #666;
+    color: white;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.msg_receive {
+    padding-left: 0;
+    margin-left: 0;
+}
+.msg_sent {
+    padding-bottom: 20px !important;
+    margin-right: 0;
+}
+.messages {
+    background: white;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+.messages > p {
+    font-size: 13px;
+    margin: 0 0 0.2rem 0;
+}
+.messages > time {
+    font-size: 11px;
+    color: #ccc;
+}
+.msg_container {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.avatar {
+    position: relative;
+}
+.base_receive > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid #FFF;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+.base_sent {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.base_sent > .avatar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
+}
+.msg_sent > time {
+    float: right;
+}
+.msg_container_base::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+.msg_container_base::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+.msg_container_base::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+.btn-group.dropup {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+}
+#chat_window_1 {
+    margin-left: 10px;
+}
+.msg_container_base,
+.panel-footer {
+    display: none;
+}
