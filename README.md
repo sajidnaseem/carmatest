@@ -1,5 +1,5 @@
 # carmatest
-Slash page 
+Splash page 
 ##Get the source.
 
 git clone git://github.com/sajidnaseem/carmatest.git
@@ -17,9 +17,9 @@ git clone git://github.com/sajidnaseem/carmatest.git
 ##Required 
          
 	Node.js
-        requre.js
-        bootstrap
-        reactjs 
+    requre.js
+    bootstrap
+    reactjs 
 
 ##Installation 
 
