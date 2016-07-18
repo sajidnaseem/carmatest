@@ -32,5 +32,5 @@ The application is now running at http://localhost:3030
 
 ##Allow-Control-Allow-Origin.*
 
-To run on local server need a cross domain extesion installation and to enable for cross domain acess. 
+To run on local server need a cross domain extesion installation and to enable for cross domain access. 
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
