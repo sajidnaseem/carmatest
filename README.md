@@ -2,7 +2,7 @@
 Slash page 
 ##Get the source.
 
-git clone git://github.com/sajidnaseem/carmaTest.git
+git clone git://github.com/sajidnaseem/carmatest.git
 
  carmaproject
   |- README.md
